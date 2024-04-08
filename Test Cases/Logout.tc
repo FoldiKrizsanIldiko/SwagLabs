@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
-   <name>Login</name>
+   <description>If I can log in i will be able to log out</description>
+   <name>Logout</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0d8ecaad-605f-4607-8145-13f074c70341</testCaseGuid>
+   <testCaseGuid>e3e496d7-4b5d-4012-9c3c-eb2d54f2f2df</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>76158379-f13d-4145-886e-55b851639fcc</id>
+      <id>5549bf88-0aa4-4b92-aeba-b941051db515</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -15,28 +15,28 @@
       <testDataId>Data Files/TestDataSwag</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>76158379-f13d-4145-886e-55b851639fcc</testDataLinkId>
+      <testDataLinkId>5549bf88-0aa4-4b92-aeba-b941051db515</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>username</value>
-      <variableId>353c7435-0c5d-4af5-9f23-6c5c6916c547</variableId>
+      <variableId>57900880-30b9-4465-b631-6cb2364861d9</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>76158379-f13d-4145-886e-55b851639fcc</testDataLinkId>
+      <testDataLinkId>5549bf88-0aa4-4b92-aeba-b941051db515</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>password</value>
-      <variableId>238e724e-0b95-43e7-9866-03039806081a</variableId>
+      <variableId>6dc2e33d-9d21-44e5-9e2a-1edbc40a1c9b</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>353c7435-0c5d-4af5-9f23-6c5c6916c547</id>
+      <id>57900880-30b9-4465-b631-6cb2364861d9</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>238e724e-0b95-43e7-9866-03039806081a</id>
+      <id>6dc2e33d-9d21-44e5-9e2a-1edbc40a1c9b</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
