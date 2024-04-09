@@ -19,20 +19,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class LoginKeyword {
-	
-	
+
+
 	@Keyword
 	def login(String username, String password) {
-		
+
 		WebUI.openBrowser('')
-		
+
 		WebUI.navigateToUrl('https://www.saucedemo.com/')
-		
+
 		WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'), username)
-		
+
 		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_password'), password)
-		
+
 		WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_login-button'))
-		
 	}
 }

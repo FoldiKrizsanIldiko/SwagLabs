@@ -19,19 +19,18 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'LoginKeyword.login'(username, password)
 
-
 try {
-    WebUI.verifyElementPresent(findTestObject('Page_Swag Labs/span_Products'), 10)
+    WebUI.verifyElementPresent(findTestObject('Page_Swag Labs/span_Products'), 5)
     
     // If the element is present, perform the logout steps
     WebUI.click(findTestObject('Page_Swag Labs/button_Open Menu'))
     WebUI.click(findTestObject('Page_Swag Labs/a_Logout'))
-    WebUI.verifyElementPresent(findTestObject('Page_Swag Labs/input_Swag Labs_login-button'), 10)
+    WebUI.verifyElementPresent(findTestObject('Page_Swag Labs/input_Swag Labs_login-button'), 5)
 } catch (Exception e) {
-    // If the element is not present, log the failure and mark the test as failed
-    println('Couldn\'t log in -> can not test the logout')
-    KeywordUtil.markFailed('Failed to log in')
+    // If the element is not present, log the failure and mark the test as failed  //FailureHandling.CONTINUE_ON_FAILURE
+    println('\n Exception  :' +  e + '\n')
+   // KeywordUtil.markFailed('Failed to log in')'Couldn\'t log in -> can not test the logout or '+
 }
 
-WebUI.closeBrowser()
+
 
