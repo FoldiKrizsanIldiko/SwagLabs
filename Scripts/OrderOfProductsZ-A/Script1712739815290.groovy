@@ -13,29 +13,31 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword as WebUIAbstractKeyword
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
-import com.kms.katalon.core.util.KeywordUtil
-import org.openqa.selenium.WebElement
-import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+CustomKeywords.'LoginKeyword.login'('standard_user', 'qcu24s4901FyWDTwXGr6XA==')
 
-CustomKeywords.'LoginKeyword.login'("standard_user", "qcu24s4901FyWDTwXGr6XA==")
+List listOfNames = []
+
+// Select Z-A sorting
+WebUI.selectOptionByValue(findTestObject('Object Repository/Products/sorting_select'), 'za', false)
 
 List productNames = WebUI.findWebElements(findTestObject('Object Repository/Products/NamesByClass'), 5)
 
-List<String> listOfNames = []
-
 for (def productName : productNames) {
-	println(WebUI.getText(WebUI.convertWebElementToTestObject(productName)))
-	listOfNames.add(WebUI.getText(WebUI.convertWebElementToTestObject(productName)))
-	}
-	
-def sortedListOfNames = listOfNames.sort(false)
+    listOfNames.add(WebUI.getText(WebUI.convertWebElementToTestObject(productName)))
+}
 
-assert sortedListOfNames == listOfNames
+// create A-Z and Z-A lists for assertion
+def sortedListOfNames = listOfNames.sort(false).reverse(false)
+
+assert listOfNames == sortedListOfNames
 
 WebUI.closeBrowser()
+
