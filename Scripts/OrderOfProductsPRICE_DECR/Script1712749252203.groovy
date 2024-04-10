@@ -25,8 +25,8 @@ CustomKeywords.'LoginKeyword.login'('standard_user', 'qcu24s4901FyWDTwXGr6XA==')
 
 List listOfPrices = []
 
-// Select Z-A sorting
-WebUI.selectOptionByValue(findTestObject('Object Repository/Products/sorting_select'), 'lohi', false)
+// Select decreasing sorting
+WebUI.selectOptionByValue(findTestObject('Object Repository/Products/sorting_select'), 'hilo', false)
 
 List productPrices = WebUI.findWebElements(findTestObject('Object Repository/Products/PricesOfProducts'), 5)
 
@@ -43,7 +43,7 @@ for (def productPrice : productPrices) {
 	listOfPrices.add(priceInt)
 }
 
-def sortedListOfPrices = listOfPrices.sort()
+def sortedListOfPrices = listOfPrices.sort(false).reverse(false)
 assert listOfPrices == sortedListOfPrices
 
 
