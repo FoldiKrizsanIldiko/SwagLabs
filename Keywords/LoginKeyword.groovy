@@ -28,10 +28,10 @@ public class LoginKeyword {
 
 		WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-		WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'), username)
+		WebUI.setText(findTestObject('Object Repository/Login/input_Swag Labs_user-name'), username)
 
-		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_password'), password)
+		WebUI.setEncryptedText(findTestObject('Object Repository/Login/input_Swag Labs_password'), password)
 
-		WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_login-button'))
+		WebUI.click(findTestObject('Object Repository/Login/input_Swag Labs_login-button'))
 	}
 }

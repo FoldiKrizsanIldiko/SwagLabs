@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Open Menu</name>
+   <name>h3_Epic sadface Sorry, this user has been l_a91fd7</name>
    <tag></tag>
-   <elementGuidId>82d96718-f32c-48d0-bdff-b319a1d77f43</elementGuidId>
+   <elementGuidId>286b0152-f513-479d-8e39-894f0833daf3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='react-burger-menu-btn']</value>
+         <key>CSS</key>
+         <value>h3</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#react-burger-menu-btn</value>
+         <key>XPATH</key>
+         <value>//div[@id='login_button_container']/div/form/div[3]/h3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Open Menu&quot;i]</value>
+         <value>[data-test=&quot;error&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,87 +28,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>acef063a-8102-4419-a5c9-f2088faaf6cf</webElementGuid>
+      <value>h3</value>
+      <webElementGuid>296e40d8-84a4-4154-8541-a94bef1ef23b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>data-test</name>
       <type>Main</type>
-      <value>react-burger-menu-btn</value>
-      <webElementGuid>c0d18f66-d0ce-490b-800b-65b83c063eea</webElementGuid>
+      <value>error</value>
+      <webElementGuid>623e2333-56da-4cae-8cf8-32f406e5863c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Open Menu</value>
-      <webElementGuid>930d982b-8301-49a4-ad72-4cbe9240b335</webElementGuid>
+      <value>Epic sadface: Sorry, this user has been locked out.</value>
+      <webElementGuid>81916485-c701-45b5-8bb0-37c9335e1a2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react-burger-menu-btn&quot;)</value>
-      <webElementGuid>88b65530-7788-4160-ba51-e073db58841b</webElementGuid>
+      <value>id(&quot;login_button_container&quot;)/div[@class=&quot;login-box&quot;]/form[1]/div[@class=&quot;error-message-container error&quot;]/h3[1]</value>
+      <webElementGuid>f3ea322f-4b2b-45d1-89db-bd72534fe01f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@id='react-burger-menu-btn']</value>
-      <webElementGuid>ae2cfbc2-815e-4a98-932e-619257e40199</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='menu_button_container']/div/div/div/button</value>
-      <webElementGuid>97ef1bb8-f081-4e31-9879-ed7e2d00b7f6</webElementGuid>
+      <value>//div[@id='login_button_container']/div/form/div[3]/h3</value>
+      <webElementGuid>90571e5a-8a14-47bc-9338-2ed573863347</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/preceding::button[1]</value>
-      <webElementGuid>8899f68d-6956-44fc-8ecb-f9d4e9783aaa</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Swag Labs'])[2]/following::h3[1]</value>
+      <webElementGuid>5ecdbbfe-7a34-4f86-b75c-edbd19eeddfe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Menu'])[1]/preceding::button[1]</value>
-      <webElementGuid>152f242b-3289-41b9-8eb8-66f5909fe9a5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accepted usernames are:'])[1]/preceding::h3[1]</value>
+      <webElementGuid>c9c26e5e-e2b1-4c7f-a401-eafd7f48e6a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Open Menu']/parent::*</value>
-      <webElementGuid>9c79d48b-3bb0-4167-af5e-82de4fd0daa7</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Epic sadface: Sorry, this user has been locked out.']/parent::*</value>
+      <webElementGuid>d8cbbf00-c346-4495-98c6-c54b5caecf9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>cf7d700f-b150-4ce1-ae76-65eaf324b606</webElementGuid>
+      <value>//h3</value>
+      <webElementGuid>06e69ad7-8a33-4886-8e7b-65ef052c33f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'react-burger-menu-btn' and (text() = 'Open Menu' or . = 'Open Menu')]</value>
-      <webElementGuid>dcdc570e-a1a4-490a-b14f-1403b8edbec4</webElementGuid>
+      <value>//h3[(text() = 'Epic sadface: Sorry, this user has been locked out.' or . = 'Epic sadface: Sorry, this user has been locked out.')]</value>
+      <webElementGuid>819ccc23-9211-4f43-84e5-96a10c71439f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
