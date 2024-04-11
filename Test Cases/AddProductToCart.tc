@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>After logging in, check is there any product available, are they in alfabetical order</description>
+   <name>AddProductToCart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2b9b5cf-ad5e-4b70-88fb-14012f7830e0</testCaseGuid>
+</TestCaseEntity>

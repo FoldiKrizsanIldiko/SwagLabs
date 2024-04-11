@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a User, I want to check out so that I can finish shopping.</description>
+   <name>Checkout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9af4d203-2cdc-4cb4-9121-ae5f8b90ca2f</testCaseGuid>
+</TestCaseEntity>
