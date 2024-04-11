@@ -11,7 +11,7 @@
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>9.4.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\CC\TA\SwagLabs2\Swag Labs.prj</projectFileLocation>
+   <projectFileLocation>/home/ubuntu/TestBranch/5_TW/Swag Labs/Swag Labs.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
