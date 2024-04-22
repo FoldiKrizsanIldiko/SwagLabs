@@ -23,19 +23,26 @@ import org.openqa.selenium.WebElement
 import com.kms.katalon.core.testobject.TestObject as TestObject
 
 
+//arrange
 CustomKeywords.'LoginKeyword.login'("standard_user", "qcu24s4901FyWDTwXGr6XA==")
-
 List productNames = WebUI.findWebElements(findTestObject('Object Repository/Products/NamesByClass'), 5)
-
 List<String> listOfNames = []
 
+//act
 for (def productName : productNames) {
 	println(WebUI.getText(WebUI.convertWebElementToTestObject(productName)))
 	listOfNames.add(WebUI.getText(WebUI.convertWebElementToTestObject(productName)))
 	}
-	
 def sortedListOfNames = listOfNames.sort(false)
 
+//assert
 assert sortedListOfNames == listOfNames
 
-WebUI.closeBrowser()
+
+
+
+
+
+
+
+//WebUI.closeBrowser()

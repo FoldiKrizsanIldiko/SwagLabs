@@ -9,6 +9,10 @@
          <key>BASIC</key>
          <value>//*[@data-test = 'finish']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -19,6 +23,14 @@
       <name>data-test</name>
       <type>Main</type>
       <value>finish</value>
-      <webElementGuid>4fd95889-5777-40aa-a2e9-a3eacda79a60</webElementGuid>
+      <webElementGuid>541daaac-4e87-47cb-a589-47979fa2f50e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0135379a-b405-4b34-96da-f8332dbc717c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

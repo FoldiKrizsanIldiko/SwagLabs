@@ -6,15 +6,19 @@
    <elementGuidId>286b0152-f513-479d-8e39-894f0833daf3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h3</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='login_button_container']/div/form/div[3]/h3</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Epic sadface: Sorry, this user has been locked out.' or . = 'Epic sadface: Sorry, this user has been locked out.')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>296e40d8-84a4-4154-8541-a94bef1ef23b</webElementGuid>
+      <webElementGuid>93547afe-6c73-4481-93f5-adc431e34e9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>error</value>
-      <webElementGuid>623e2333-56da-4cae-8cf8-32f406e5863c</webElementGuid>
+      <webElementGuid>55d4e160-0535-4766-a691-7069260f2f75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Epic sadface: Sorry, this user has been locked out.</value>
-      <webElementGuid>81916485-c701-45b5-8bb0-37c9335e1a2e</webElementGuid>
+      <webElementGuid>b01f429f-47ab-4df6-a38f-26494cf98f48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;login_button_container&quot;)/div[@class=&quot;login-box&quot;]/form[1]/div[@class=&quot;error-message-container error&quot;]/h3[1]</value>
-      <webElementGuid>f3ea322f-4b2b-45d1-89db-bd72534fe01f</webElementGuid>
+      <webElementGuid>52c58085-e86e-4eef-baf6-c2a32665b4b6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='login_button_container']/div/form/div[3]/h3</value>
-      <webElementGuid>90571e5a-8a14-47bc-9338-2ed573863347</webElementGuid>
+      <webElementGuid>fe961ffe-b380-4bac-829e-e10286d22677</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Swag Labs'])[2]/following::h3[1]</value>
-      <webElementGuid>5ecdbbfe-7a34-4f86-b75c-edbd19eeddfe</webElementGuid>
+      <webElementGuid>c4d14495-598c-4329-8836-ec42a135bb07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Accepted usernames are:'])[1]/preceding::h3[1]</value>
-      <webElementGuid>c9c26e5e-e2b1-4c7f-a401-eafd7f48e6a3</webElementGuid>
+      <webElementGuid>c94e1f99-2ebb-46de-ab31-55e936f59fbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Epic sadface: Sorry, this user has been locked out.']/parent::*</value>
-      <webElementGuid>d8cbbf00-c346-4495-98c6-c54b5caecf9a</webElementGuid>
+      <webElementGuid>91635653-252a-4204-ab39-513dc582197f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h3</value>
-      <webElementGuid>06e69ad7-8a33-4886-8e7b-65ef052c33f7</webElementGuid>
+      <webElementGuid>9566c047-a1ec-4595-a1df-aaa9cb11880f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h3[(text() = 'Epic sadface: Sorry, this user has been locked out.' or . = 'Epic sadface: Sorry, this user has been locked out.')]</value>
-      <webElementGuid>819ccc23-9211-4f43-84e5-96a10c71439f</webElementGuid>
+      <webElementGuid>92077ccf-f0e6-4790-a4c0-3b558b12b29c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

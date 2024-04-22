@@ -19,6 +19,14 @@
       <name>data-test</name>
       <type>Main</type>
       <value>continue</value>
-      <webElementGuid>48914624-1e89-4ed8-80a0-6599098a2e4c</webElementGuid>
+      <webElementGuid>fdb884dc-c404-40f0-ba85-d4e0efaa0c47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b1000f4f-14bf-420e-adae-140e25a0a3d4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

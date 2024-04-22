@@ -19,6 +19,14 @@
       <name>data-test</name>
       <type>Main</type>
       <value>title</value>
-      <webElementGuid>a9088b89-e203-49e1-82d4-6c9e76cf2dc5</webElementGuid>
+      <webElementGuid>6dc3deb3-84d6-44a5-ac65-cfd19533278b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>75c08a35-7f7f-483f-9d09-657b9ab7cf45</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

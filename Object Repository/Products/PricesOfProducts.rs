@@ -19,6 +19,14 @@
       <name>class</name>
       <type>Main</type>
       <value>inventory_item_price</value>
-      <webElementGuid>e10a7141-374f-47e2-a840-6661c8ae6f87</webElementGuid>
+      <webElementGuid>c3baf000-1536-4035-8f8b-52006152216c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>c1683661-7c73-4cdd-bad1-13e31b546730</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

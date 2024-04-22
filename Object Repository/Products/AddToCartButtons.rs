@@ -19,6 +19,14 @@
       <name>name</name>
       <type>Main</type>
       <value>add-to-cart-</value>
-      <webElementGuid>1a4b0c7c-318a-42f1-83b4-352c527c5e29</webElementGuid>
+      <webElementGuid>6799a422-4c42-4cfd-b17e-b3ca5215c267</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5d48d9c4-8a61-49c7-812b-d7f6154521cb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
