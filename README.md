@@ -35,7 +35,7 @@ The project was developed in a team, our team is called The Recruitables. The pr
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Abouth the project
+## About the project
 
 
 
