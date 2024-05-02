@@ -37,7 +37,7 @@ The project was developed in a team, our team is called The Recruitables. The pr
 
 ## About the project
 
-
+Two relevant presentations can be found below:
 
 https://docs.google.com/presentation/d/15VOMZSAlo487PrdQifrtZPFubKIv-RXCn7kEmaelb3I/edit#slide=id.g2cfceb5dae9_0_30
 
