@@ -52,8 +52,5 @@ for (def i = 0; i < productPrices.size(); i++) {
 	}
 	
 
-
-//def sortedListOfPrices = listOfPrices.sort(false).reverse(false)
-//assert listOfPrices == sortedListOfPrices
 WebUI.closeBrowser()
 

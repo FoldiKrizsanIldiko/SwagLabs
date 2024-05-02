@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Login/input_Swag Labs_user-name'), username)
 
 WebUI.setEncryptedText(findTestObject('Login/input_Swag Labs_password'), password)
 
-WebUI.click(findTestObject('Login/input_Swag Labs_login-button'))
+WebUI.click(findTestObject('Login/input_Swag Labs_login-button2'))
 
 WebUI.verifyElementPresent(findTestObject('Products/span_Products'), 0)
 
