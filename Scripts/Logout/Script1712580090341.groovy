@@ -25,7 +25,7 @@ try {
     // If the element is present, perform the logout steps
     WebUI.click(findTestObject('Side_Bar/button_Open Menu'))
     WebUI.click(findTestObject('Side_Bar/a_Logout'))
-    WebUI.verifyElementPresent(findTestObject('Login/input_Swag Labs_login-button'), 5)
+    WebUI.verifyElementPresent(findTestObject('Login/input_Swag Labs_login-button2'), 5)
 } catch (Exception e) {
     // If the element is not present, log the failure and mark the test as failed  //FailureHandling.CONTINUE_ON_FAILURE
     println('\n Exception  :' +  e + '\n')
